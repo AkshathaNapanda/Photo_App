@@ -1,0 +1,267 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons .login, .auth-buttons .register {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.auth-buttons .login {
+    background-color: transparent;
+    color: #333;
+}
+
+.auth-buttons .register {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background: url('/path-to-your-image/1.jpg') no-repeat center center/cover; /* Replace with the actual path to your image */
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 36px;
+}
+
+.hero .join-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Snap Photos Section */
+.snap-photos {
+    padding: 50px 0;
+}
+
+.snap-photos h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.snap-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.snap-grid .column {
+    flex: 1;
+}
+
+.snap-box {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.snap-box h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.snap-box p {
+    margin-bottom: 20px;
+}
+
+.snap-box .learn-more {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Posted Photo Section */
+.posted-photo {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+}
+
+.posted-photo h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.photo-content {
+    display: flex;
+    gap: 20px;
+}
+
+.text-block {
+    flex: 1;
+}
+
+.image-block {
+    flex: 1;
+}
+
+/* Modify the image size */
+.image-block img {
+    width: 700px; /* Set to the desired width */
+    height: auto; /* Keep the aspect ratio intact */
+}
+
+/* Stylish Photos Section */
+.stylish-photos {
+    padding: 50px 0;
+}
+
+.stylish-photos h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 26px;
+}
+
+.stylish-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.photo-card {
+    flex: 1;
+    text-align: center;
+}
+
+.photo-card img {
+    width: 50%;
+    height: auto;
+}
+
+.photo-card h3 {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.photo-card p {
+    margin-top: 5px;
+}
+
+/* Free Trial Form Section */
+.free-trial {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.free-trial h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.free-trial p {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+form input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links div {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
